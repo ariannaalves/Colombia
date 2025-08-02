@@ -1,0 +1,190 @@
+@font-face {
+  font-family: "Rockybilly";
+  src: url(fonts/Rockybilly.ttf) format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "NewyearCoffee";
+  src: url(fonts/NewyearCoffee.otf) format("opentype");
+  src: url(fonts/NewyearCoffee.ttf) format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "2muchcoffee";
+  src: url(fonts/2muchcoffee.otf) format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Borisna";
+  src: url(fonts/Borisna.ttf) format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  background-image: url("https://static.vecteezy.com/system/resources/previews/049/939/700/non_2x/long-shot-colorful-fine-art-artistic-background-stain-textured-stroke-painting-brushstrokes-canvas-painting-of-a-vibrant-blue-background-with-textured-stain-brushstrokes-free-photo.jpg");
+  background-blend-mode: luminosity;
+  background-color: steelblue;
+}
+
+header {
+  text-align: center;
+}
+
+#container {
+  background-color: oldlace;
+  max-width: 80%;
+  margin: auto;
+  border-radius: 20px;
+  padding-bottom: 20px;
+}
+
+h1 {
+  color: firebrick;
+  font-family: Rockybilly, sans-serif;
+  font-size: 72px;
+  margin-bottom: -70px;
+}
+
+h2 {
+  color: gold;
+  font-family: "2muchcoffee", sans-serif;
+  font-size: 72px;
+  position: absolute;
+  top: 23%;
+  left: 38%;
+}
+nav {
+  width: 100%;
+  text-align: center;
+  background-color: oldlace;
+  padding: 10px;
+  box-sizing: border-box;
+}
+nav ul {
+  list-style-type: none;
+}
+nav li {
+  text-align: center;
+  display: inline;
+  box-sizing: content-box;
+  margin: 10px;
+}
+nav li a {
+  font-size: 26px;
+  position: relative;
+  text-decoration: none;
+  color: steelblue;
+  padding: 30px 30px 30px 30px;
+}
+
+nav li a:hover {
+  color: oldlace;
+}
+nav li#index a:hover {
+  background-image: url(media/dark-red-paint-brush-stroke-2.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: top 20px right 0px;
+  opacity: 75%;
+  background-blend-mode: color-burn;
+}
+nav li#music a:hover {
+  background-image: url(media/cassette.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: top 5px right 0px;
+  opacity: 75%;
+  background-blend-mode: color-burn;
+}
+nav li#theater a:hover {
+  background-image: url(media/ticket2.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: top 5px right 0px;
+  opacity: 75%;
+  background-blend-mode: color-burn;
+}
+nav li#beauty-pageants a:hover {
+  background-image: url(media/lipstick.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: top -9px right 0px;
+  opacity: 75%;
+  background-blend-mode: color-burn;
+}
+nav li#textiles a:hover {
+  background-image: url(media/redfabric.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: top 10px right 0px;
+  opacity: 75%;
+  background-blend-mode: color-burn;
+}
+nav li#citations a:hover {
+  background-image: url(media/redbook.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: top 10px right 2px;
+  opacity: 70%;
+  background-blend-mode: color-burn;
+}
+nav li a:active {
+  color: goldenrod;
+}
+h3 {
+  color: goldenrod;
+  font-family: NewyearCoffee, sans-serif;
+}
+
+h4 {
+  font-family: "2muchcoffee", sans-serif;
+  font-size: 50px;
+  color: firebrick;
+  text-align: center;
+}
+
+p,
+h5,
+h6,
+a,
+li {
+  color: midnightblue;
+  font-family: Borisna, sans-serif;
+}
+small {
+  font-family: Borisna, sans-serif;
+  color: oldlace;
+}
+#hero {
+  max-width: 100%;
+  height: 300px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: opacity(90px);
+  text-align: center;
+  padding-top: 5px;
+  position: relative;
+}
+
+#hero.h3 {
+  vertical-align: middle;
+}
+
+#about {
+  margin: auto;
+  width: 75%;
+  position: relative;
+  padding: 10px;
+}
+
+footer {
+  text-align: center;
+  padding: 5px;
+}

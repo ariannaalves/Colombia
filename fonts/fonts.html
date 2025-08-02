@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body{
+            text-align: center;
+        }
+        div{
+            padding: 20px;
+        }
+        h2{
+            font-size: 72px;
+        }
+        p{
+            font-size: larger;
+        }
+        @font-face {
+            font-family: '2muchcoffee';
+            src: url(2muchcoffee.otf) format('opentype');
+            font-weight: normal;
+            font-style: normal;
+        }
+        @font-face {
+            font-family: '2muchcoffee';
+            src: url(2muchcoffeeBold.otf) format('opentype');
+            font-weight: bold;
+            font-style: normal;
+        }
+        @font-face {
+            font-family: '2muchcoffee';
+            src: url(2muchcoffeeItalic.otf) format('opentype');
+            font-weight: normal;
+            font-style: italic;
+        }
+        @font-face {
+            font-family: 'Awesome';
+            src: url(Awesome.otf) format('opentype');
+            src: url(Awesome.ttf) format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+        @font-face {
+            font-family: 'BestieSeventy';
+            src: url(BestieSeventy.ttf) format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+        @font-face {
+            font-family: 'BrandyCoffeeDemo';
+            src: url(BrandyCoffeeDemo.otf) format('opentype');
+            font-weight: normal;
+            font-style: normal;
+        }
+        @font-face {
+            font-family: 'CoffeeTown';
+            src: url(CoffeeTown.otf) format('opentype');
+            src: url(CoffeeTown.ttf) format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+        @font-face {
+            font-family: 'CreamyCoffeeDemo';
+            src: url(CreamyCoffeeDemoRegular.ttf) format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+        @font-face {
+            font-family: 'Gathenia';
+            src: url(Gathenia.otf) format('opentype');
+            font-weight: normal;
+            font-style: normal;
+        }
+        @font-face {
+            font-family: 'GomariceCoffeeJellyUmai';
+            src: url(gomarice_coffee_jelly_umai.ttf) format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+        @font-face {
+            font-family: 'modernline';
+            src: url(modernline.otf) format('opentype');
+            font-weight: normal;
+            font-style: normal;
+        }
+        @font-face {
+            font-family: 'modernline';
+            src: url(modernlinebold.otf) format('opentype');
+            font-weight: bold;
+            font-style: normal;
+        }
+        @font-face {
+            font-family: 'NewyearCoffee';
+            src: url(NewyearCoffee.otf) format('opentype');
+            src: url(NewyearCoffee.ttf) format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+        @font-face {
+            font-family: 'QurovaDEMO';
+            src: url(QurovaDEMO-Regular.otf) format('opentype');
+            font-weight: normal;
+            font-style: normal;
+        }
+        @font-face {
+            font-family: 'QurovaDEMO';
+            src: url(QurovaDEMO-Light.otf) format('opentype');
+            font-weight: light;
+            font-style: normal;
+        }
+        @font-face {
+            font-family: 'QurovaDEMO';
+            src: url(QurovaDEMO-Medium.otf) format('opentype');
+            font-weight: medium;
+            font-style: normal;
+        }
+        @font-face {
+            font-family: 'QurovaDEMO';
+            src: url(QurovaDEMO-SemiBold.otf) format('opentype');
+            font-weight: bold;
+            font-style: normal;
+        }
+        @font-face {
+            font-family: 'QurovaDEMO';
+            src: url(QurovaDEMO-Bold.otf) format('opentype');
+            font-weight: bolder;
+            font-style: normal;
+        }
+        @font-face {
+            font-family: 'Rockybilly';
+            src: url(Rockybilly.ttf) format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+        @font-face {
+            font-family: 'ShootingStar';
+            src: url(ShootingStar.ttf) format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+        @font-face {
+            font-family: 'Signatie';
+            src: url(Signatie.otf) format('opentype');
+            font-weight: normal;
+            font-style: normal;
+        }
+        .twomuchcoffee{
+            font-family: '2muchcoffee', sans-serif;
+        }
+        .awesome{
+            font-family: 'Awesome', sans-serif;
+        }
+        .bestieseventy{
+            font-family: 'BestieSeventy', sans-serif;
+        }
+        .brandycoffeedemo{
+            font-family: 'BrandyCoffeeDemo', sans-serif;
+        }
+        .coffeetown{
+            font-family: 'CoffeeTown', sans-serif;
+        }
+        .creamycoffeedemo{
+            font-family: 'CreamyCoffeeDemo', sans-serif;
+        }
+        .gathenia{
+            font-family: 'Gathenia', sans-serif;
+        }
+        .gomaricecoffeejellyumai{
+            font-family: 'GomariceCoffeeJellyUmai', sans-serif;
+        }
+        .modernline{
+            font-family: 'modernline', sans-serif;
+        }
+        .newyearcoffee{
+            font-family: 'NewyearCoffee', sans-serif;
+        }
+        .qurovademo{
+            font-family: 'QurovaDEMO', sans-serif;
+        }
+        .rockybilly{
+            font-family: 'Rockybilly', sans-serif;
+        }
+        .shootingstar{
+            font-family: 'ShootingStar', sans-serif;
+        }
+        .signatie{
+            font-family: 'Signatie', sans-serif;
+        }
+    </style>
+    <title>Fonts Preview</title>
+</head>
+<body>
+    <h1>Font Preview</h1>
+    <div class="twomuchcoffee">
+        <h2>1. Colombia!</h2>
+        <p>Font: 2muchcoffee</p>
+        <p>Weight: normal</p>
+        <p>Style: normal</p>
+    </div>
+    <div class="awesome">
+        <h2>2. Colombia!</h2>
+        <p>Font: Awesome</p>
+        <p>Weight: normal</p>
+        <p>Style: normal</p>
+    </div>
+    <div class="bestieseventy">
+        <h2>3. Colombia!</h2>
+        <p>Font: BestieSeventy</p>
+        <p>Weight: normal</p>
+        <p>Style: normal</p>
+    </div>
+    <div class="brandycoffeedemo">
+        <h2>4. Colombia!</h2>
+        <p>Font: BrandyCoffeeDemo</p>
+        <p>Weight: normal</p>
+        <p>Style: normal</p>
+    </div>
+    <div class="coffeetown">
+        <h2>5. Colombia!</h2>
+        <p>Font: CoffeeTown</p>
+        <p>Weight: normal</p>
+        <p>Style: normal</p>
+    </div>
+    <div class="creamycoffeedemo">
+        <h2>6. Colombia!</h2>
+        <p>Font: CreamyCoffeeDemo</p>
+        <p>Weight: normal</p>
+        <p>Style: normal</p>
+    </div>
+    <div class="gathenia">
+        <h2>7. Colombia!</h2>
+        <p>Font: Gathenia</p>
+        <p>Weight: normal</p>
+        <p>Style: normal</p>
+    </div>
+    <div class="gomaricecoffeejellyumai">
+        <h2>8. Colombia!</h2>
+        <p>Font: GomariceCoffeeJellyUmai</p>
+        <p>Weight: normal</p>
+        <p>Style: normal</p>
+    </div>
+    <div class="modernline">
+        <h2>9. Colombia!</h2>
+        <p>Font: modernline</p>
+        <p>Weight: normal</p>
+        <p>Style: normal</p>
+    </div>
+    <div class="newyearcoffee">
+        <h2>10. Colombia!</h2>
+        <p>Font: NewyearCoffee</p>
+        <p>Weight: normal</p>
+        <p>Style: normal</p>
+    </div>
+    <div class="qurovademo">
+        <h2>11. Colombia!</h2>
+        <p>Font: QurovaDEMO</p>
+        <p>Weight: normal</p>
+        <p>Style: normal</p>
+    </div>
+    <div class="rockybilly">
+        <h2>12. Colombia!</h2>
+        <p>Font: Rockybilly</p>
+        <p>Weight: normal</p>
+        <p>Style: normal</p>
+    </div>
+    <div class="shootingstar">
+        <h2>13. Colombia!</h2>
+        <p>Font: shootingstar</p>
+        <p>Weight: normal</p>
+        <p>Style: normal</p>
+    </div>
+    <div class="signatie">
+        <h2>14. Colombia!</h2>
+        <p>Font: Signatie</p>
+        <p>Weight: normal</p>
+        <p>Style: normal</p>
+    </div>
+</body>
+</html>
